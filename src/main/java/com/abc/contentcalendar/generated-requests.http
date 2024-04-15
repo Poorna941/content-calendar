@@ -1,0 +1,32 @@
+
+// Find ALL Content
+GET http://localhost:8080/api/content
+
+DELETE http://localhost:8080/api/content/2
+
+// Get Content by id
+// GET http://localhost:8080/api/content/1
+
+// Create new content
+//POST http://localhost:8080/api/content
+//update new content
+PUT http://localhost:8080/api/content/2
+Content-Type: application/json
+
+  {
+    "id": 2,
+    "title": "My Second Blog Post",
+    "desc": "My Second Blog Post",
+    "status": "IDEA",
+    "contentType": "ARTICLE",
+    "dateCreated": "2024-03-26T21:58:00.720487",
+    "dateUpdated": "2024-03-26T21:58:00.720487",
+    "url": ""
+  }
+
+
+
+
+
+
+
